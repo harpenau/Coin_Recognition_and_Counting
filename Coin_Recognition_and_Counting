@@ -1,4 +1,5 @@
 # Run in Google Colaboratory using Python 2
+# tutorial derived from https://www.pyimagesearch.com/2015/11/02/watershed-opencv/
 # currently does not work, this is a revision behind the working one
 
 # packages necessary for importing file
