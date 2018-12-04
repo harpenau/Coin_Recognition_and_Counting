@@ -52,10 +52,6 @@ q_func = QFunction(obs_size, n_actions)
 
 #################################################################################
 
-_q_func = chainerrl.q_functions.FCStateQFunctionWithDiscreteAction(
-    obs_size, n_actions,
-    n_hidden_layers=2, n_hidden_channels=50)
-
 # Use Adam to optimize q_func. eps=1e-2 is for stability.
 optimizer = chainer.optimizers.Adam(eps=1e-2)
 optimizer.setup(q_func)
